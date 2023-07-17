@@ -4,10 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/styles.css">
-    <script src="/scripts.js"></script>
+    <script src="/scripts.js" defer></script>
     <title>BlogRoom</title>
 </head>
 <body>
-    <h1>Welcome to BlogRoom</h1>
+   <header>
+    <a href="#" class="logo">BlogRoom.</a>
+    <div class="group">
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Categories</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <div class="search">
+            <span class="icon">
+                <ion-icon name="search" class="searchBtn"></ion-icon>
+                <ion-icon name="close" class="closeBtn"></ion-icon>
+            </span>
+        </div>
+    </div>
+    <div class="searchBox">
+        <input type="text" placeholder="Search for blogs...">
+    </div>
+   </header>
+   <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
 </body>
 </html>
