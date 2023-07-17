@@ -1,34 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles.css" />
     <script src="/scripts.js" defer></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <title>BlogRoom</title>
-</head>
-<body>
-   <header>
-    <a href="#" class="logo">BlogRoom.</a>
-    <div class="group">
+  </head>
+  <body>
+    <!--------------------------HEADER SECTION------------------------>
+    <header>
+      <a href="#" class="logo">BlogRoom.</a>
+      <div class="group">
         <ul class="navigation">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Categories</a></li>
-            <li><a href="#">Contact</a></li>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Categories</a></li>
+          <li><a href="#">Contact</a></li>
         </ul>
         <div class="search">
-            <span class="icon">
-                <ion-icon name="search" class="searchBtn"></ion-icon>
-                <ion-icon name="close" class="closeBtn"></ion-icon>
-            </span>
+          <span class="icon">
+            <ion-icon name="search" class="searchBtn"></ion-icon>
+            <ion-icon name="close" class="closeBtn"></ion-icon>
+          </span>
         </div>
         <ion-icon name="menu" class="menuToggle"></ion-icon>
+      </div>
+      <div class="searchBox">
+        <input type="text" placeholder="Search for blogs . . ." />
+      </div>
+    </header>
+    <!------------------------------------------------------------------>
+
+    <!--------------------------FOOTER SECTION-------------------------->
+    <footer>
+      <div class="container">
+        <div class="sec about">
+          <h2>About Us</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+            Eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+          <ul class="sci">
+            <li>
+              <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            </li>
+          </ul>
+        </div>
+        <div class="sec quicklinks">
+          <h2>Services</h2>
+          <ul>
+            <li><a href="#">Compare</a></li>
+            <li><a href="#">Download</a></li>
+            <li><a href="#">Feedback</a></li>
+            <li><a href="#">Bug Report</a></li>
+          </ul>
+        </div>
+        <div class="sec quicklinks">
+          <h2>Support</h2>
+          <ul>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Help</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+        <div class="sec contact">
+            <h2>Contact Us</h2>
+          <ul class="info">
+            <li>
+              <span><i class="fa-solid fa-phone"></i></span>
+              <p><a href="tel:+12345678911">+1 234 567 8911</a></p>
+            </li>
+            <li>
+                <span><i class="fa-sharp fa-solid fa-envelope"></i></span>
+                <p><a href="mailto:abc@gmail.com">abc@gmail.com</a></p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <div class="copyrightText">
+        <p>©Copyright 2023. All rights reserved.</p>
     </div>
-    <div class="searchBox">
-        <input type="text" placeholder="Search for blogs . . .">
-    </div>
-   </header>
-   <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
-</body>
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+  </body>
 </html>
