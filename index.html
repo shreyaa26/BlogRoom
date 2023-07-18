@@ -16,34 +16,43 @@
   </head>
   <body>
     <!--------------------------HEADER SECTION------------------------>
-    <header>
-      <a href="#" class="logo">BlogRoom.</a>
-      <div class="group">
-        <ul class="navigation">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Categories</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-        <div class="search">
-          <span class="icon">
-            <ion-icon name="search" class="searchBtn"></ion-icon>
-            <ion-icon name="close" class="closeBtn"></ion-icon>
-          </span>
+      <header>
+        <a href="#" class="logo">BlogRoom.</a>
+        <div class="group">
+          <ul class="navigation">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Posts</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+          <div class="search">
+            <span class="icon">
+              <ion-icon name="search" class="searchBtn"></ion-icon>
+              <ion-icon name="close" class="closeBtn"></ion-icon>
+            </span>
+          </div>
+          <ion-icon name="menu" class="menuToggle"></ion-icon>
         </div>
-        <ion-icon name="menu" class="menuToggle"></ion-icon>
-      </div>
-      <div class="searchBox">
-        <input type="text" placeholder="Search for blogs . . ." />
-      </div>
-    </header>
+        <div class="searchBox">
+          <input type="text" placeholder="Search for blogs . . ." />
+        </div>
+      </header> 
+  
     <!------------------------------------------------------------------>
-
+    <!--------------------------BANNER SECTION-------------------------->
+    <section class="banner" id="home">
+      <img src="/images/banner1.jpg" class="cover">
+      <div class="contentBox">
+        <h2>BlogRoom</h2>
+        <h4>Get inside and explore a world of ideas</h4>
+        <a href="#" class="btn">About</a>
+      </div>
+    </section>
     <!--------------------------FOOTER SECTION-------------------------->
     <footer>
       <div class="container">
         <div class="sec about">
-          <h2>About Us</h2>
+          <h2>Blogroom.</h2>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
             Eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -82,7 +91,7 @@
           </ul>
         </div>
         <div class="sec contact">
-            <h2>Contact Us</h2>
+            <h2>Contact</h2>
           <ul class="info">
             <li>
               <span><i class="fa-solid fa-phone"></i></span>
