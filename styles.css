@@ -276,6 +276,134 @@ section {
     background: #333;
 }
 
+/*--------------------About section------------------------------*/
+
+.title {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title h2 {
+    position: relative;
+    font-weight: 600;
+    letter-spacing: 2px;
+    font-size: 1.4em;
+    color: #333;
+}
+
+.title p {
+    margin-top: 40px;
+    max-width: 700px;
+    text-align: center;
+}
+
+.title h2:before {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 40px;
+    height: 6px;
+    background: #333;
+}
+
+.content p {
+    color: #333;
+    font-weight: 300;
+    text-align: justify;
+}
+
+.about .contentBox {
+    position: relative;
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 40px;
+}
+
+.about .contentBox .content {
+    position: relative;
+}
+
+.about .contentBox .content .imgBox {
+    min-height: 400px;
+}
+
+/*--------------------------------------------------------------*/
+
+/*-------------------Blog posts section-------------------------*/
+
+.blog {
+    position: relative;
+}
+
+.blog .contentBox {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    margin-top: 20px;
+}
+
+.blog .contentBox .blogColumn {
+    position: relative;
+}
+
+.blog .contentBox .blogColumn .blogBox {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    margin-top: 20px;
+}
+
+.blog .contentBox .blogColumn .blogBox .textBox {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    flex-direction: column;
+    transition: 0.25s;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.blog .contentBox .blogColumn .blogBox:hover .textBox {
+    opacity: 0.9;
+    visibility: visible;
+}
+
+.blog .contentBox .blogColumn .blogBox .textBox h3 {
+    font-weight: 400;
+    font-size: 1em;
+    letter-spacing: 1px;
+    color: #333;
+}
+
+.blog .contentBox .blogColumn .blogBox.extraHeight {
+    height: 600px;
+}
+
+.blog .contentBox .blogBox .textBox .btn {
+    padding: 4px 10px;
+    font-weight: 300;
+    font-size: 1em;
+    background: #fff;
+}
+
+.blog .contentBox .blogBox .textBox .btn:hover {
+    color: #fff;
+    background: #333;
+}
 /*--------------------Footer section-----------------------------*/
 
 footer {
