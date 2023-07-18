@@ -46,7 +46,7 @@ header .sticky {
     text-decoration: none;
     color: #333;
     font-size: 1.5em;
-    font-weight: bold;
+    font-weight: 1000;
     letter-spacing: 2px;
 }
 
@@ -244,10 +244,36 @@ section {
 
 .banner .contentBox h2 {
     font-size: 2em;
-    font-weight: 500;
+    font-weight: bold;
     color: #333;
     letter-spacing: 2px;
     text-align: center;
+}
+
+.banner .contentBox h4 {
+    font-size: 1.2em;
+    font-weight: 300;
+    letter-spacing: 4px;
+    text-align: center;
+    color: #333;
+}
+
+.btn {
+    position: relative;
+    display: inline-block;
+    padding: 8px 20px;
+    margin-top: 20px;
+    border: 2px solid #333;
+    color: #333;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.btn:hover {
+    color: #fff;
+    background: #333;
 }
 
 /*--------------------Footer section-----------------------------*/
