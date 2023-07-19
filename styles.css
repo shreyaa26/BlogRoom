@@ -9,14 +9,9 @@
   scroll-behavior: smooth;
 }
 
-/*body {
-    display: grid;
-    justify-content: end;
-    align-content: end;
-    min-height: 150vh;
-    overflow-x: hidden;
-    background: #f8f8f8;
-    padding: 50px;
+body {
+  min-height: 150vh;
+  background: #f8f8f8;
 }
 
 /*--------------------------Navigation bar-------------------------------*/
@@ -26,7 +21,6 @@ header {
   top: 0;
   left: 0;
   width: 100%;
-  height: 80px;
   background: #fff;
   padding: 20px 40px;
   display: flex;
@@ -37,7 +31,7 @@ header {
   transition: 0.5s;
 }
 
-header .sticky {
+header.sticky {
   padding: 10px 40px;
 }
 
@@ -183,7 +177,7 @@ header .search {
   }
 
   header.open .navigation {
-    top: 80px;
+    top: 76.8px;
     opacity: 1;
     visibility: visible;
     left: 0;
@@ -191,9 +185,15 @@ header .search {
     flex-direction: column;
     background: #fff;
     width: 100%;
-    height: calc(100vh - 80px);
+    height: calc(100vh - 76.8px);
+    z-index: 999;
     padding: 40px;
     border-top: 1px solid rgba(0, 0, 0, 0.05);
+  }
+
+  header.sticky.open .navigation {
+    top: 56.8px;
+    height: calc(100vh - 56.8px);
   }
 
   header.open .navigation li a {
