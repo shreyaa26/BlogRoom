@@ -4,31 +4,31 @@ BlogRoom is a responsive blog website developed using HTML, CSS, and JavaScript.
 
 Home page - 
 
-![Home-page](home-page.png)
+![Home-page](images/home-page.png)
 
 Search bar feature - 
 
-![Search-bar](search-bar-feature.png)
+![Search-bar](images/search-bar-feature.png)
 
 Menu toggle and responsive design - 
 
-![menu-toggle](menu-toggle-and-responsive-design.png)
+![menu-toggle](images/menu-toggle-and-responsive-design.png)
 
 Navigation menu - 
 
-![Navigation-menu](navigation-menu.png)
+![Navigation-menu](images/navigation-menu.png)
 
 About section - 
 
-![About-section](about-section.png)
+![About-section](images/about-section.png)
 
 Blogs section - 
 
-![Blogs-section](blogs-section.png)
+![Blogs-section](images/blogs-section.png)
 
 Contact section - 
 
-![Contact-section](contact-section.png)
+![Contact-section](images/contact-section.png)
 
 ## Table of Contents
 
